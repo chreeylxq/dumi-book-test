@@ -25,6 +25,7 @@ jobs:
 
       # 打包代码
       - name: Build Project
+        uses:actions/setup-node@main
         run: |
           npm install
           npm run build
