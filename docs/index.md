@@ -1,9 +1,9 @@
 ---
 hero:
-  title: Site Name
-  desc: dumi site app example
+  title: JAVA学习之路
+  desc: From zero to hero
   actions:
-    - text: Getting Started
+    - text: 去看看
       link: /getting-started
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
