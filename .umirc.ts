@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi';
 const repo = 'dumi-book-test'; //项目名
 
 export default defineConfig({
-  title: 'dumi-book-test',
+  title: '一只羊',
   mode: 'site',
   // more config: https://d.umijs.org/config
 
@@ -12,4 +12,19 @@ export default defineConfig({
   },
   base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
+  locales: [['zh-CN', '中文']],
+  navs: [
+    {
+      title: '知识总结',
+      path: '/getting-started',
+    },
+    {
+      title: '每日一练',
+      path: '/dailyTask',
+    },
+    {
+      title: '其他',
+      path: '/getting-started',
+    },
+  ],
 });
