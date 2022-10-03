@@ -13,18 +13,5 @@ export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   locales: [['zh-CN', '中文']],
-  navs: [
-    {
-      title: '知识总结',
-      path: '/getting-started',
-    },
-    {
-      title: '每日一练',
-      path: '/dailyTask',
-    },
-    {
-      title: '其他',
-      path: '/getting-started',
-    },
-  ],
+  navs: [null],
 });
